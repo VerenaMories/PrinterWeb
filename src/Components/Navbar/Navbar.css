@@ -1,0 +1,137 @@
+.navbar {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    color: #707070;
+  }
+  nav {
+    /* other properties */
+    transition: transform 0.3s ease-in-out;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    /* width: 100%; */
+  }
+  
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(-100%);
+    height: 60vh;
+    z-index: 100000000000;
+  }
+  
+  .navbar-menu.open {
+    display: flex;
+    transform: translateX(0);
+    animation: slide-down 0.5s ease-in-out;
+  
+  }
+  
+  .navbar-link {
+    font-size: 20px;
+    color: #707070;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    line-height: 27px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    color: #707070;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .toggle-button {
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-menu {
+      transform: translateX(0);
+    }
+  
+    .toggle-button {
+      display: block;
+      cursor: pointer;
+      /* padding: 10px; */
+      border: none;
+      color:#EC1F26;
+      background-color: transparent;
+      /* width: 24.97%;
+      height:25.42% ; */
+    }
+  }
+  
+  .iconsContainer{
+    display: flex;
+    justify-content: space-around!important;
+    align-items: center;
+  }
+  
+  .navbar-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    /* background-color: #333; */
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+  }
+  @keyframes slide-down {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  input::placeholder {
+    font-size: 17px!important;
+    font-family: 'Segoe UI Regular'!important;
+    line-height: 29px!important; 
+    /* overflow-x: 65px!important;
+    overflow-y: 135px!important; */
+  }
+  .inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+
+}
+.Inp{
+  border-radius: 46px;
+  background-color: transparent;
+  border: 2px solid #707070;
+  padding-left: 4%;
+  /* width: 80%; */
+  width:400px;
+height:52px;
+overflow-x: 54px;
+overflow-y: 129px;
+}

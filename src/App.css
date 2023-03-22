@@ -36,3 +36,110 @@
     transform: rotate(360deg);
   }
 }
+/* .mainContainer{
+  width: 100%;
+  height: 100vh;
+background-image: url(./images/white-painted-wall-texture-background.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+} */
+#root{
+  position: relative; /* make the parent container positioned */
+
+  width: 100%;
+  height: auto;
+background-image: url(./images/white-painted-wall-texture-background.png);
+/* opacity: 70%; */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+/* overflow-x: -1545px;
+overflow-y: 0px; */
+}
+
+.History{
+  width: 100%;
+  height: 100vh;
+background-image: url(./images/white-painted-wall-texture-background.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+/* .fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+} */
+@font-face {
+  font-family: 'a Atmospheric';
+  src: url('../src/Atmospheric-rg4aL.ttf');
+}
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('../src/Segoe UI Bold.ttf');
+}
+@font-face {
+  font-family: 'Segoe UI Regular';
+  src: url('../src/Segoe UI.ttf');
+}
+@font-face {
+  font-family: 'A Suls';
+  src: url('../src/Suls22.ttf');
+}
+/* @import '../src/Atmospheric-rg4aL.ttf'; */
+.WhatWeDo{
+ 
+  width:267px;
+  height:220px  
+}
+.navbar-collapse > .navbar-nav > li >  a:before,
+.navbar-collapse > .navbar-nav > li >  a:before,
+.navbar-collapse > .navbar-nav > li >  a:before{
+  position: absolute;
+  content: "";
+  height: 2px;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  background: #707070;
+  transition: transform 0.5s;
+
+}
+
+  .navbar-collapse > .navbar-nav > li> a,
+.navbar-collapse > .navbar-nav > li > a,
+.navbar-collapse > .navbar-nav > li > a{
+  position: relative;
+  display: block;
+  text-decoration: none;
+  /* font-family: "Lato"; */
+  /* font-size: 2rem;; */
+  /* color: #ecf0f1; */
+  /* text-transform: uppercase; */
+  /* padding: 4px 0; */
+  transition: 0.5s;
+}
+.navbar-collapse > .navbar-nav > li >  a:hover,
+.navbar-collapse > .navbar-nav > li >  a:active,
+.navbar-collapse > .navbar-nav > li >  a:focus{
+  color:#EC1F26
+}
+.navbar-collapse > .navbar-nav > li > a:hover:before,
+.navbar-collapse > .navbar-nav > li > a:focus:before{
+  background-color:#EC1F26!important;
+  transition: transform 0.5s;
+
+}
