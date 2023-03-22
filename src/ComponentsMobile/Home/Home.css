@@ -1,0 +1,114 @@
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+
+}
+.Inp{
+    border-radius: 26px;
+    background-color: transparent;
+    border: 1.9px solid #707070;
+    padding: 5px;
+    /* width: 80%; */
+    /* width:258px;
+height:31px; */
+overflow-x: 54px;
+overflow-y: 129px;
+}
+.iconWrapper{
+    background-image: url(../../images/Path\ 2.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 20%;
+height: 100%;
+}
+.iconsContainer{
+    display: flex;
+    justify-content: space-around!important;
+    align-items: center;
+}
+.iconWrapperInsta{
+    background-image: url(../../images/Path\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:23%;
+    height: 100%;
+}
+.iconWrapperTwitter{
+    background-image: url(../../images/Path\ 10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:28%;
+    height: 100%;
+}.iconWrapperLinked{
+    background-image: url(../../images/Path\ 12.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:28%;
+    height: 100%;
+}
+.divContainer{
+    background-color: rgba(109,107,107,0.33);
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.33);
+    
+text-align: center;
+/* opacity: 33%; */
+border-radius: 20px;
+/* position: relative; */
+
+
+}
+.lastUpdate{
+width: 326px;
+    height: 1458px;
+
+}
+.divShadow
+{border-radius: 20px;
+    /* position: relative; */
+
+    /* background-color: rgba(0,0,0,0.33); */
+    /* opacity: 33%; */
+}
+
+.divContainer2{
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+    /* opacity: 33%; */
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 1px 2px 2px 2px rgb(0 0 0 / 30%);
+    width: 326px!important;
+    height: 892px!important;
+    margin-right: 0px;
+}
+.divShadow2
+{border-radius: 20px;
+    position: relative;
+ 
+       /* background-color: rgba(0,0,0,0.50); */
+}
+input::placeholder {
+    font-size: 13px!important;
+    font-family: 'Segoe UI'!important;
+    line-height: 17px!important; 
+    overflow-x: 65px!important;
+    overflow-y: 135px!important;
+  }
+  .WhatWeDo{
+ 
+    width:267px;
+    height:220px  
+}
+
