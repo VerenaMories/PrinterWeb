@@ -1,5 +1,4 @@
 import PaperMobile from "../../ComponentsMobile/Build/Paper";
 import PaperWeb from "../../ComponentsWeb/Build/Paper";
-import { isMobile } from "react-device-detect";
 
-export default isMobile ? PaperMobile : PaperWeb;
+export default window.innerWidth <= 800 ? PaperMobile : PaperWeb;

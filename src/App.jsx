@@ -42,10 +42,9 @@ import SubProduct4 from "./Components/Products/SubProduct4";
 import SubProduct6 from "./Components/Products/SubProduct6";
 import Products from "./Components/Products/Products";
 import Colors from "./Components/Products/Colors";
-import { isMobile } from "react-device-detect";
 
 function App() {
-	return isMobile ? (
+	return window.innerWidth <= 800 ? (
 		<>
 			<Navbar />
 			<AnimatePresence mode="wait">

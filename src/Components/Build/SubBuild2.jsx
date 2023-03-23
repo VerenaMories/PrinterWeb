@@ -1,5 +1,4 @@
 import SubBuild2Mobile from "../../ComponentsMobile/Build/SubBuild2";
 import SubBuild2Web from "../../ComponentsWeb/Build/SubBuild2";
-import { isMobile } from "react-device-detect";
 
-export default isMobile ? SubBuild2Mobile : SubBuild2Web;
+export default window.innerWidth <= 800 ? SubBuild2Mobile : SubBuild2Web;
