@@ -30,7 +30,10 @@ export default function Navbar() {
 		<nav className="navbar" style={{ paddingTop: "13%", paddingBottom: "0px" }}>
 			<h1
 				className="logo"
-				style={{ display: "flex", justifyContent: "start", marginLeft: "-16%" }}
+				style={{
+					display: "flex",
+					justifyContent: "start",
+				}}
 			>
 				<button
 					className="toggle-button"
@@ -39,6 +42,7 @@ export default function Navbar() {
 						border: "none",
 						backgroundColor: "transparent",
 						paddingRight: "3%",
+						width: "30%",
 					}}
 					onClick={() => {
 						handleClick();
@@ -48,8 +52,11 @@ export default function Navbar() {
 					{/* <i class="fa-solid fa-bars fs-1" style={{marginLeft:'10px'}}></i> */}
 					<img src={bars} alt="" />
 				</button>
-				<div className="logoContainer" style={{ width: "100%" }}>
-					<img src={Logo} alt="" style={{ width: "100%" }} />
+				<div
+					className="logoContainer"
+					style={{ display: "flex", justifyContent: "start", width: "70%" }}
+				>
+					<img src={Logo} alt="" style={{ width: "60%" }} />
 				</div>
 			</h1>
 			<div className={`navbar-menu ${isMobile ? "open" : ""}`}>
