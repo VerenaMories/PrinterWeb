@@ -186,7 +186,7 @@ export default function Navbar() {
 										Our Products
 									</Link>
 								</li>
-								<li class="nav-item mx-3">
+								{/* <li class="nav-item mx-3">
 									<Link
 										to="/industries"
 										className="navbar-link"
@@ -198,7 +198,7 @@ export default function Navbar() {
 									>
 										Industries
 									</Link>
-								</li>
+								</li> */}
 								<li class="nav-item mx-3">
 									<Link
 										to="/build"

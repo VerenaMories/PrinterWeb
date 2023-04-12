@@ -105,7 +105,7 @@ export default function Navbar() {
 						Our Products
 					</motion.div>
 				</Link>
-				<Link to="/industries" className="navbar-link" onClick={handleClose}>
+				{/* <Link to="/industries" className="navbar-link" onClick={handleClose}>
 					<motion.div
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1, transition: { duration: 5 } }}
@@ -113,7 +113,7 @@ export default function Navbar() {
 					>
 						Industries
 					</motion.div>
-				</Link>
+				</Link> */}
 				<Link to="/build" className="navbar-link" onClick={handleClose}>
 					Build Now
 				</Link>

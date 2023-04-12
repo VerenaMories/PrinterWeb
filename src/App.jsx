@@ -217,7 +217,7 @@ function App() {
 						}
 					/>
 
-					<Route
+					{/* <Route
 						path="/industries"
 						element={
 							<motion.div
@@ -229,7 +229,7 @@ function App() {
 								<Industries />{" "}
 							</motion.div>
 						}
-					/>
+					/> */}
 
 					<Route
 						path="/products/subProduct"
