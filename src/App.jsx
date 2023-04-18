@@ -22,19 +22,6 @@ import SubBuild2 from "./Components/Build/SubBuild2";
 import SubProduct from "./Components/Products/SubProduct";
 import Canon from "./Components/Products/Canon";
 import SubCanon from "./Components/Products/SubCanon";
-import Canon2 from "./Components/Products/Canon2";
-import SubCanon2 from "./Components/Products/SubCanon2";
-import Canon3 from "./Components/Products/Canon3";
-import SubCanon3 from "./Components/Products/SubCanon3";
-import Canon4 from "./Components/Products/Canon4";
-import Canon5 from "./Components/Products/Canon5";
-import Canon6 from "./Components/Products/Canon6";
-import SubCanon6 from "./Components/Products/SubCanon6";
-import Canon7 from "./Components/Products/Canon7";
-import SubCanon7 from "./Components/Products/SubCanon7";
-import Canon8 from "./Components/Products/Canon8";
-import SubCanon8 from "./Components/Products/SubCanon8";
-import Canon9 from "./Components/Products/Canon9";
 import SubProduct2 from "./Components/Products/SubProduct2";
 import SubProduct3 from "./Components/Products/SubProduct3";
 import SubProduct5 from "./Components/Products/SubProduct5";
@@ -325,112 +312,9 @@ function App() {
 							</motion.div>
 						}
 					/>
+
 					<Route
-						path="/canon2"
-						element={
-							<motion.div
-								key="canon2"
-								initial={{ opacity: 0, transition: { duration: 2 } }}
-								animate={{ opacity: 1 }}
-								exit={{ opacity: 0, transition: { duration: 2 } }}
-							>
-								<Canon2 />{" "}
-							</motion.div>
-						}
-					/>
-					<Route
-						path="/canon3"
-						element={
-							<motion.div
-								key="canon3"
-								initial={{ opacity: 0, transition: { duration: 2 } }}
-								animate={{ opacity: 1 }}
-								exit={{ opacity: 0, transition: { duration: 2 } }}
-							>
-								<Canon3 />{" "}
-							</motion.div>
-						}
-					/>
-					<Route
-						path="/canon4"
-						element={
-							<motion.div
-								key="canon4"
-								initial={{ opacity: 0, transition: { duration: 2 } }}
-								animate={{ opacity: 1 }}
-								exit={{ opacity: 0, transition: { duration: 2 } }}
-							>
-								<Canon4 />{" "}
-							</motion.div>
-						}
-					/>
-					<Route
-						path="/canon5"
-						element={
-							<motion.div
-								key="canon5"
-								initial={{ opacity: 0, transition: { duration: 2 } }}
-								animate={{ opacity: 1 }}
-								exit={{ opacity: 0, transition: { duration: 2 } }}
-							>
-								<Canon5 />{" "}
-							</motion.div>
-						}
-					/>
-					<Route
-						path="/canon6"
-						element={
-							<motion.div
-								key="canon6"
-								initial={{ opacity: 0, transition: { duration: 2 } }}
-								animate={{ opacity: 1 }}
-								exit={{ opacity: 0, transition: { duration: 2 } }}
-							>
-								<Canon6 />{" "}
-							</motion.div>
-						}
-					/>
-					<Route
-						path="/canon7"
-						element={
-							<motion.div
-								key="canon7"
-								initial={{ opacity: 0, transition: { duration: 2 } }}
-								animate={{ opacity: 1 }}
-								exit={{ opacity: 0, transition: { duration: 2 } }}
-							>
-								<Canon7 />{" "}
-							</motion.div>
-						}
-					/>
-					<Route
-						path="/canon8"
-						element={
-							<motion.div
-								key="canon8"
-								initial={{ opacity: 0, transition: { duration: 2 } }}
-								animate={{ opacity: 1 }}
-								exit={{ opacity: 0, transition: { duration: 2 } }}
-							>
-								<Canon8 />{" "}
-							</motion.div>
-						}
-					/>
-					<Route
-						path="/canon9"
-						element={
-							<motion.div
-								key="canon9"
-								initial={{ opacity: 0, transition: { duration: 2 } }}
-								animate={{ opacity: 1 }}
-								exit={{ opacity: 0, transition: { duration: 2 } }}
-							>
-								<Canon9 />{" "}
-							</motion.div>
-						}
-					/>
-					<Route
-						path="/subCanon"
+						path="/subCanon/:name"
 						element={
 							<motion.div
 								key="subCanon"
@@ -439,71 +323,6 @@ function App() {
 								exit={{ opacity: 0, transition: { duration: 2 } }}
 							>
 								<SubCanon />{" "}
-							</motion.div>
-						}
-					/>
-					<Route
-						path="/subCanon2"
-						element={
-							<motion.div
-								key="subCanon2"
-								initial={{ opacity: 0, transition: { duration: 2 } }}
-								animate={{ opacity: 1 }}
-								exit={{ opacity: 0, transition: { duration: 2 } }}
-							>
-								<SubCanon2 />{" "}
-							</motion.div>
-						}
-					/>
-					<Route
-						path="/subCanon3"
-						element={
-							<motion.div
-								key="subCanon3"
-								initial={{ opacity: 0, transition: { duration: 2 } }}
-								animate={{ opacity: 1 }}
-								exit={{ opacity: 0, transition: { duration: 2 } }}
-							>
-								<SubCanon3 />{" "}
-							</motion.div>
-						}
-					/>
-					<Route
-						path="/subCanon6"
-						element={
-							<motion.div
-								key="subCanon6"
-								initial={{ opacity: 0, transition: { duration: 2 } }}
-								animate={{ opacity: 1 }}
-								exit={{ opacity: 0, transition: { duration: 2 } }}
-							>
-								<SubCanon6 />{" "}
-							</motion.div>
-						}
-					/>
-					<Route
-						path="/subCanon7"
-						element={
-							<motion.div
-								key="subCanon7"
-								initial={{ opacity: 0, transition: { duration: 2 } }}
-								animate={{ opacity: 1 }}
-								exit={{ opacity: 0, transition: { duration: 2 } }}
-							>
-								<SubCanon7 />{" "}
-							</motion.div>
-						}
-					/>
-					<Route
-						path="/subCanon8"
-						element={
-							<motion.div
-								key="subCanon8"
-								initial={{ opacity: 0, transition: { duration: 2 } }}
-								animate={{ opacity: 1 }}
-								exit={{ opacity: 0, transition: { duration: 2 } }}
-							>
-								<SubCanon8 />{" "}
 							</motion.div>
 						}
 					/>
@@ -530,22 +349,10 @@ function App() {
 				<Route path="/subBuild2" element={<SubBuild2 />} />
 				<Route path="/subProduct" element={<SubProduct />} />
 				<Route path="/canon" element={<Canon />} />
-				<Route path="/canon2" element={<Canon2 />} />
-				<Route path="/canon3" element={<Canon3 />} />
-				<Route path="/canon4" element={<Canon4 />} />
-				<Route path="/canon5" element={<Canon5 />} />
-				<Route path="/canon6" element={<Canon6 />} />
-				<Route path="/canon7" element={<Canon7 />} />
-				<Route path="/canon8" element={<Canon8 />} />
-				<Route path="/canon9" element={<Canon9 />} />
+
 				<Route path="/colors" element={<Colors />} />
 
-				<Route path="/subCanon" element={<SubCanon />} />
-				<Route path="/subCanon2" element={<SubCanon2 />} />
-				<Route path="/subCanon3" element={<SubCanon3 />} />
-				<Route path="/subCanon6" element={<SubCanon6 />} />
-				<Route path="/subCanon7" element={<SubCanon7 />} />
-				<Route path="/subCanon8" element={<SubCanon8 />} />
+				<Route path="/subCanon/:name" element={<SubCanon />} />
 				<Route path="/products/subProduct2" element={<SubProduct2 />} />
 				<Route path="/subProduct3" element={<SubProduct3 />} />
 				<Route path="/subProduct5" element={<SubProduct5 />} />
